@@ -1,0 +1,31 @@
+# Executáveis compilados
+*.exe
+*.out
+*.o
+
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Imagens de teste geradas
+*.bmp
+!week4-memory/input.bmp
+
+# Banco de dados de teste
+*.db
+!week7-sql/*.db
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Node (Week 8-9)
+node_modules/
