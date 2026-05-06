@@ -1,0 +1,70 @@
+/* =============================================
+   DASHBOARD PESSOAL — Estilos
+   CS50 — Week 8: HTML, CSS, JavaScript
+   =============================================
+   Seu trabalho: estilize o dashboard!
+   ============================================= */
+
+/* TODO 1: Defina variáveis CSS (cores, fontes, espaçamentos) */
+/* Use :root { --cor-primaria: ...; } */
+
+
+/* TODO 2: Estilize o body */
+/* Aplique:
+   - Um gradiente de fundo (linear-gradient)
+   - Fonte moderna (Segoe UI, Arial, sans-serif)
+   - Remova margin e padding padrão
+   - min-height: 100vh (ocupar tela inteira)
+   - color: white (texto branco)
+*/
+
+
+/* TODO 3: Estilize o header */
+/* Centralize o texto, adicione padding */
+
+
+/* TODO 4: Estilize o relógio */
+/* Fonte grande (3-4rem), bold, talvez com text-shadow */
+
+
+/* TODO 5: Crie o layout grid do dashboard */
+/* .dashboard {
+     display: grid;
+     grid-template-columns: ...;
+     gap: ...;
+     padding: ...;
+   }
+*/
+
+
+/* TODO 6: Estilize os cards */
+/* Use glassmorphism:
+   - background: rgba(255, 255, 255, 0.1 a 0.2)
+   - backdrop-filter: blur(10px)
+   - border-radius: 16px
+   - padding: 24px
+   - box-shadow para profundidade
+*/
+
+
+/* TODO 7: Estilize os inputs e botões */
+/* Inputs e botões devem combinar com o tema:
+   - Fundo semitransparente
+   - Borda arredondada
+   - Texto branco
+   - Efeito hover
+*/
+
+
+/* TODO 8: Estilize a lista de tarefas */
+/* Remova bullets (list-style: none)
+   Adicione padding entre itens
+   Tarefas completadas: text-decoration: line-through
+*/
+
+
+/* TODO 9: Torne responsivo */
+/* @media (max-width: 768px) {
+     .dashboard { grid-template-columns: 1fr; }
+   }
+*/

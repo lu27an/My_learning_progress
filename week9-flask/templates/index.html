@@ -1,0 +1,30 @@
+<!-- Week 9: Template principal do Encurtador -->
+<!-- TODO: Implemente o formulário e a exibição de resultados -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encurtador de URLs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <h1>🔗 Encurtador de URLs</h1>
+
+        <!-- TODO: Formulário para encurtar -->
+        <!-- <form action="/encurtar" method="POST">
+            <input type="url" name="url" ...>
+            <button type="submit">Encurtar</button>
+        </form> -->
+
+        <!-- TODO: Mostrar resultado (se existir url_curta) -->
+        <!-- {% if url_curta %} ... {% endif %} -->
+
+        <!-- TODO: Listar URLs já encurtadas -->
+        <!-- {% for url in urls %} ... {% endfor %} -->
+
+        <a href="/stats">📊 Ver estatísticas</a>
+    </main>
+</body>
+</html>
